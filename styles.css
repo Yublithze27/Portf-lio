@@ -246,16 +246,12 @@ input::-webkit-input-placeholder {
     grid-area: description;
   }
 
-  /*.hero-image {
-    grid-area: image;
-  }*/
-  #dentro {background-size: contain;}
   .hero-image {
-    display: flex;
-    position: relative;
-    display: flex;
-    align-items: right;
-    width:250px; 
+    grid-area: image;
+  }
+  
+  .hero-image img {
+    width:230px; 
     height:350px;
     inline-size: 300px;
     margin-top: -50px;
@@ -271,7 +267,6 @@ input::-webkit-input-placeholder {
     -webkit-box-shadow: 0px 0px 10px 10px #ffffff;
     -moz-box-shadow: 0px 0px 10px 10px #ffffff;
     -o-box-shadow: 0px 0px 10px 10px #ffffff;
-    background-image:url(images/Yublithze.jpg);
   }
 
   .pre-projects-content {
