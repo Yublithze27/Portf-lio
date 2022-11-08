@@ -251,6 +251,10 @@ input::-webkit-input-placeholder {
   }*/
   #dentro {background-size: contain;}
   .hero-image {
+    display: flex;
+    position: relative;
+    display: flex;
+    align-items: right;
     width:250px; 
     height:350px;
     inline-size: 300px;
