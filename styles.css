@@ -251,7 +251,7 @@ input::-webkit-input-placeholder {
   }
   
   .hero-image img {
-    inline-size: 300px;
+    inline-size: 250px;
     margin-top: -50px;
     margin-inline-end: 15px;
     -webkit-margin-inline-end: 15px;
