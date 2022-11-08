@@ -246,10 +246,11 @@ input::-webkit-input-placeholder {
     grid-area: description;
   }
 
-  .hero-image {
+  /*.hero-image {
     grid-area: image;
-  }
-  .hero-image img {
+  }*/
+  #dentro {background-size: contain;}
+  .hero-image {
     width:250px; 
     height:350px;
     inline-size: 300px;
@@ -266,6 +267,7 @@ input::-webkit-input-placeholder {
     -webkit-box-shadow: 0px 0px 10px 10px #ffffff;
     -moz-box-shadow: 0px 0px 10px 10px #ffffff;
     -o-box-shadow: 0px 0px 10px 10px #ffffff;
+    background-image:url(images/Yublithze.jpg);}
   }
 
   .pre-projects-content {
